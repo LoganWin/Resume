@@ -1,0 +1,258 @@
+%-------------------------
+% Resume in Latex
+% Author : Hyuk Lee
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=red]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\usepackage[letterpaper,
+            bindingoffset=0in,
+            left= 0.2in,
+            right=0.2in,
+            top=0.25in,
+            bottom=0.25in,
+            footskip=.25in]{geometry}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule ]
+
+\titlespacing{\section}{0pt}{8pt}{6pt}
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeExperienceHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r@{}}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r@{}}\vspace{-2pt}
+      \textbf{#1} & #2 \\ \vspace{-2pt}
+      \textit{\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSecSubheading}[6]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r@{}}\vspace{-2pt}
+      \textbf{#1} & #2 \\ \vspace{-2pt}
+      \textit{\small#3} & {\small #4} \\
+      {\small#5} \\ \vspace{-2pt}
+      {\small#6} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r@{}}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r@{}}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+%----------HEADING----------
+\begin{center}
+    \textbf{\huge \scshape Logan Winters} \\ \vspace{6pt}
+    (267) 772-2701 $|$ {{\href{mailto:logan9win@gmail.com}{Logan9win@gmail.com}}} $|$ 
+    \href{https://www.linkedin.com/in/logan-winters-31597b2b2/}{Logan-Linkedin} $|$ \href{https://github.com/plavering}{Logan-GitHub}
+\end{center}
+%-----------EDUCATION-----------
+\section{\textbf{EDUCATION}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Worcester Polytechnic Institute}{Worcester, MA}
+      {Bachelor of Science in Computer Science $|$  GPA: 3.92}{2023 - 2027}
+  \resumeSubHeadingListEnd
+
+ %-----------SKILLS-----------
+\section{\textbf{SKILLS}}
+\vspace{-4pt}
+\begin{itemize}[leftmargin=0in, label={}, itemsep=0pt, parsep=0pt]
+  \item \small \textbf{Software \& Tools:} Git, GitHub, React, Node.js, PostgreSQL, Express, Prisma, Figma, Jira
+  \item \small \textbf{Programming Languages:} Java, C, C++, Python JavaScript/TypeScript, SQL, HTML, CSS
+    \item \small \textbf{Technical Skills:} Full Stack Development, Data Structures \& Algorithms, Object-Oriented Design, Databases, Version Control, CI/CD, UI/UX Design, Agile \& Scrum
+
+\end{itemize}
+\vspace{-14pt}
+
+\section{\textbf{COURSEWORK}}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item \small{
+    Software Engineering \textbar{}
+    Introduction to AI \textbar{} 
+    Algorithms \textbar{} 
+    Systems Programming \textbar{} 
+    Databases \textbar{}
+    Object-Oriented Design 
+  }
+\end{itemize}
+\vspace{-14pt}
+
+%-----------PROJECTS-----------
+\section{\textbf{PROJECTS}}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{Brigham \& Women's Hospital} $|$ Software Engineering Project $|$ Worcester, MA}{\emph{TypeScript, PERN, Git, Agile}}
+      \resumeItemListStart
+        \resumeItem{Built a full-stack PERN application cloud-deployed using AWS with 2D/3D hospital path finding, first-person-view navigation, service request modules, RFID authentication, and voice-enabled UI.}
+        \resumeItem{Led Agile development on an 11-person team as Product Owner: managed Jira backlog and facilitated sprint planning to ensure all deadlines were met on schedule. }
+        \resumeItem{Implemented frontend to backend connection, live data filtering, and REST APIs, improving scalability and UI responsiveness.}
+        \resumeItem{Project received positive client feedback, and methods were adopted by WPI faculty as a teaching example for future SWE courses.}
+      \resumeItemListEnd
+  \resumeProjectHeading
+      {\textbf{Interactive Qualifying Project} $|$ AI in Education $|$ Zürich, Switzerland}{\emph{Artificial Intelligence, Research, Collaboration}}
+      \resumeItemListStart
+        \resumeItem{Researched AI adoption in higher education through interviews and surveys, with emphasis on generative AI tools, machine learning system, and prompt engineering practices.}
+        \resumeItem{Analyzed qualitative and quantitative data in a 4-member team to uncover patterns, challenges, and opportunists for classroom integration.}
+        \resumeItem{Presented weekly findings to faculty advisors and project sponsors, strengthening research communication and data analysis skills.} 
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Texas Hold'em Poker} $|$ Final Project $|$ Kintnersville, PA}{\emph{Java, OOP}}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented a CLI-based heads-up poker with OOP principles, event-driven programming, and decision-making algorithms.} 
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Cybersecurity Research Paper} $|$ Senior Project $|$ Kintnersville, PA}{\emph{Research, Communication.}}
+      \resumeItemListStart
+        \resumeItem{Conducted research on cybersecurity threats, vulnerabilities,and rusk mitigation strategies.} 
+        \resumeItem{Presented findings with real-world case studies to students and faculty, strengthening technical communication and analysis.} 
+      \resumeItemListEnd
+\resumeSubHeadingListEnd 
+
+ 
+%-----------EXPERIENCE-----------
+\section{\textbf{EXPERIENCE}}
+  \resumeSubHeadingListStart
+  \resumeExperienceHeading
+    {\textbf{Details Manager} $|$ Theta Chi Epsilon $|$ Worcester, MA}{Feb 2024 - Present}
+    \resumeItemListStart
+      \resumeItem{Manage \$1,000+ operating budget and supply inventory for 80+ members, reducing costs by 30\%.}
+      \resumeItem{Build automated tracking script to optimize cleaning schedules, streamlining operations, reducing missed tasks, and improving organization.}
+      \resumeItem{Coordinate chapter cleanings twice weekly, achieving an 18/20 chairman review score for performance and leadership.}
+    \resumeItemListEnd
+   \resumeExperienceHeading
+  {\textbf{Property \& Operations Management} $|$ Self-Employed $|$ Bucks County, PA}{May - Aug 2025}
+  \resumeItemListStart
+    \resumeItem{Managed weekly operations across 5+ properties, including maintenance, animal care support, and equipment operation.}
+    \resumeItem{Streamlined independent operations for clients by optimizing workflows and ensuring consistent, high-quality service delivery.}
+  \resumeItemListEnd
+    \resumeExperienceHeading
+    {\textbf{Risk Manager} $|$ Theta Chi Epsilon $|$ Worcester, MA}{Mar - May 2024}
+    \resumeItemListStart
+      \resumeItem{Enforced safety and compliance protocols at fraternity events, ensuring policy adherence and reducing potential risk.}
+    \resumeItemListEnd
+  \resumeExperienceHeading
+  {\textbf{GoreCon Inc.} $|$ Landscaper $|$ Bristol, PA}{May - Aug 2024}
+  \resumeItemListStart
+    \resumeItem{Collaborated on large-scale landscape projects with a 5-person crew for residential and commercial clients.}
+    \resumeItem{Applied structured problem-solving and teamwork to deliver high-quality outcomes in demanding environments.}
+  \resumeItemListEnd
+  \resumeExperienceHeading
+  {\textbf{Wehrung's} $|$ Lumber Yard Associate $|$ Ottsville, PA}{June - Aug 2023}
+  \resumeItemListStart
+    \resumeItem{Assisted customers with material selection and order fulfillment while operating yard equipment and organizing inventory to maintain accurate, efficient, and safe workflow operations.}
+    \resumeItem{Strengthened teamwork, communication, and problem-solving skills through daily collaboration in a high-demand environment.}
+  \resumeItemListEnd
+  
+% -----------Multiple Positions Heading-----------
+%   \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%       \resumeItem{Apache Beam}
+%         {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%   \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\vspace{-14pt}
+
+%-----------Interests-----------
+\section{\textbf{INTERESTS}}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item \small{
+    Artificial Intelligence \textbar{}
+    Golf \textbar{} 
+    Fishing \textbar{} 
+    Hiking \textbar{} 
+    Football \textbar{}
+    Mixed Martial Arts \textbar{}
+    Video Games
+  }
+\end{itemize}
+
+\end{document}
