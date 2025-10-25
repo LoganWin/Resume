@@ -144,7 +144,7 @@
 \vspace{-4pt}
 \begin{itemize}[leftmargin=0in, label={}, itemsep=0pt, parsep=0pt]
   \item \small \textbf{Software \& Tools:} Git, GitHub, React, Node.js, PostgreSQL, Express, Prisma, Figma, Jira
-  \item \small \textbf{Programming Languages:} Java, C, C++, Python JavaScript/TypeScript, SQL, HTML, CSS
+  \item \small \textbf{Programming Languages:} Java, C, C++, Python JavaScript/TypeScript, HTML, CSS, SQL 
     \item \small \textbf{Technical Skills:} Full Stack Development, Data Structures \& Algorithms, Object-Oriented Design, Databases, Version Control, CI/CD, UI/UX Design, Agile \& Scrum
 
 \end{itemize}
@@ -228,6 +228,7 @@
     \resumeItem{Assisted customers with material selection and order fulfillment while operating yard equipment and organizing inventory to maintain accurate, efficient, and safe workflow operations.}
     \resumeItem{Strengthened teamwork, communication, and problem-solving skills through daily collaboration in a high-demand environment.}
   \resumeItemListEnd
+  \resumeSubHeadingListEnd 
   
 % -----------Multiple Positions Heading-----------
 %   \resumeSubSubheading
@@ -244,7 +245,7 @@
 %-----------Interests-----------
 
 \section{\textbf{INTERESTS}}
-\vspace{4pt}
+
 \begin{itemize}[leftmargin=0.15in, label={}]
   \item \small{
     Artificial Intelligence \textbar{}
@@ -256,6 +257,5 @@
     Video Games
   }
 \end{itemize}
-
 
 \end{document}
