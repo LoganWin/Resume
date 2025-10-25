@@ -169,16 +169,16 @@
   \resumeProjectHeading
       {\textbf{Brigham \& Women's Hospital} $|$ Software Engineering Project $|$ Worcester, MA}{\emph{TypeScript, PERN, Git, Agile}}
       \resumeItemListStart
-        \resumeItem{Built a full-stack PERN application cloud-deployed using AWS with 2D/3D hospital path finding, first-person-view navigation, service request modules, RFID authentication, and voice-enabled UI.}
+        \resumeItem{Built a full-stack PERN application cloud-deployed using AWS with 2D/3D hospital pathfinding, first-person-view navigation, service request modules, RFID authentication, and voice-enabled UI.}
         \resumeItem{Led Agile development on an 11-person team as Product Owner: managed Jira backlog and facilitated sprint planning to ensure all deadlines were met on schedule. }
-        \resumeItem{Implemented frontend to backend connection, live data filtering, and REST APIs, improving scalability and UI responsiveness.}
-        \resumeItem{Project received positive client feedback, and methods were adopted by WPI faculty as a teaching example for future SWE courses.}
+        \resumeItem{Integrated frontend and backend systems, live data filtering, and REST APIs, improving scalability and UI responsiveness.}
+        \resumeItem{Project received positive client feedback, and methods were later adopted by WPI faculty as a teaching example for future SWE courses.}
       \resumeItemListEnd
   \resumeProjectHeading
       {\textbf{Interactive Qualifying Project} $|$ AI in Education $|$ Zürich, Switzerland}{\emph{Artificial Intelligence, Research, Collaboration}}
       \resumeItemListStart
         \resumeItem{Researched AI adoption in higher education through interviews and surveys, with emphasis on generative AI tools, machine learning system, and prompt engineering practices.}
-        \resumeItem{Analyzed qualitative and quantitative data in a 4-member team to uncover patterns, challenges, and opportunists for classroom integration.}
+        \resumeItem{Analyzed qualitative and quantitative data in a 4-member team to uncover patterns, challenges, and opportunities for classroom integration.}
         \resumeItem{Presented weekly findings to faculty advisors and project sponsors, strengthening research communication and data analysis skills.} 
       \resumeItemListEnd
     \resumeProjectHeading
@@ -189,7 +189,7 @@
     \resumeProjectHeading
       {\textbf{Cybersecurity Research Paper} $|$ Senior Project $|$ Kintnersville, PA}{\emph{Research, Communication.}}
       \resumeItemListStart
-        \resumeItem{Conducted research on cybersecurity threats, vulnerabilities,and rusk mitigation strategies.} 
+        \resumeItem{Conducted research on cybersecurity threats, vulnerabilities,and risk mitigation strategies.} 
         \resumeItem{Presented findings with real-world case studies to students and faculty, strengthening technical communication and analysis.} 
       \resumeItemListEnd
 \resumeSubHeadingListEnd 
@@ -202,7 +202,7 @@
     {\textbf{Details Manager} $|$ Theta Chi Epsilon $|$ Worcester, MA}{Feb 2024 - Present}
     \resumeItemListStart
       \resumeItem{Manage \$1,000+ operating budget and supply inventory for 80+ members, reducing costs by 30\%.}
-      \resumeItem{Build automated tracking script to optimize cleaning schedules, streamlining operations, reducing missed tasks, and improving organization.}
+      \resumeItem{Built automated tracking script to optimize cleaning schedules, streamlining operations, reducing missed tasks, and improving organization.}
       \resumeItem{Coordinate chapter cleanings twice weekly, achieving an 18/20 chairman review score for performance and leadership.}
     \resumeItemListEnd
    \resumeExperienceHeading
@@ -242,7 +242,9 @@
 \vspace{-14pt}
 
 %-----------Interests-----------
+
 \section{\textbf{INTERESTS}}
+\vspace{4pt}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \item \small{
     Artificial Intelligence \textbar{}
@@ -250,9 +252,10 @@
     Fishing \textbar{} 
     Hiking \textbar{} 
     Football \textbar{}
-    Mixed Martial Arts \textbar{}
+    Martial Arts \textbar{}
     Video Games
   }
 \end{itemize}
+
 
 \end{document}
