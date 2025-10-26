@@ -141,7 +141,6 @@
 
  %-----------SKILLS-----------
 \section{\textbf{SKILLS}}
-\vspace{-4pt}
 \begin{itemize}[leftmargin=0in, label={}, itemsep=0pt, parsep=0pt]
   \item \small \textbf{Software \& Tools:} Git, GitHub, React, Node.js, PostgreSQL, Express, Prisma, Figma, Jira
   \item \small \textbf{Programming Languages:} Java, C, C++, Python JavaScript/TypeScript, HTML, CSS, SQL 
@@ -189,7 +188,7 @@
     \resumeProjectHeading
       {\textbf{Cybersecurity Research Paper} $|$ Senior Project $|$ Kintnersville, PA}{\emph{Research, Communication.}}
       \resumeItemListStart
-        \resumeItem{Conducted research on cybersecurity threats, vulnerabilities,and risk mitigation strategies.} 
+        \resumeItem{Conducted research on cybersecurity threats, vulnerabilities, and risk mitigation strategies.} 
         \resumeItem{Presented findings with real-world case studies to students and faculty, strengthening technical communication and analysis.} 
       \resumeItemListEnd
 \resumeSubHeadingListEnd 
